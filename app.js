@@ -15,10 +15,10 @@ const winpatterns=[
     [2,5,8],
     [2,4,6],
     [3,4,5],
-    [6,7,8]
+    [6,7,8],
 ];
 const reset=()=>{
-    turO=true;
+    turnO=true;
     enableboxes();
     msgcontainer.classList.add("hide")
 
@@ -52,8 +52,7 @@ const checkwinner=()=>{
                         
                         showwinner(position1)
                        }
-                       else
-                       Mes.innerText="match draw "
+                       
                    }
             }
         }
